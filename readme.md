@@ -6,8 +6,9 @@ go to page [GitHub - Protobuf release](https://github.com/google/protobuf/releas
 
 2. build from source codes:
 
+see [C++ Installation](https://github.com/google/protobuf/blob/master/src/README.md)
 
-# usage
+# Use
 
 1. JavaScript:
 
