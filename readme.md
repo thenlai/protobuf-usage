@@ -21,3 +21,13 @@ protoc --js_out=import_style=commonjs,binary:. MODEL1.proto MODEL2.proto
 # Protobuf grammar
 
 See: [Grammar of Protobuf](grammar.md)
+
+# Comparision
+
+Protobuf vs JSON
+
+|      field      |                  performance                        |
+|-----------------|-----------------------------------------------------|
+| Serialization   | speed: depends, but normally Protobuf is much faster; for JavaScript and PHP, JSON is easier to handle; |
+| Deserializaztion| spped: depends, but normally Protobuf is much faster; for JavaScript, JSON is easier to handle; |
+| File size       | Protobuf is smaller than JSON, but not JSON gzip |
