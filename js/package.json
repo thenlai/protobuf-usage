@@ -1,0 +1,21 @@
+{
+  "name": "protobuf-js-demo",
+  "version": "1.0.0",
+  "description": "JavaScript demo for Protobuf",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "google-protobuf": "^3.2.0"
+  },
+  "scripts": {
+    "make": "protoc --js_out=import_style=commonjs,binary:. Person.proto",
+    "encode": "node encode.js",
+    "decode": "node decode.js"
+  },
+  "keywords": [
+    "Protobuf;",
+    "JavaScript"
+  ],
+  "author": "jules3c",
+  "license": "ISC"
+}
