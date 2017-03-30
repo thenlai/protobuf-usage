@@ -6,7 +6,7 @@ var Person = require('./Person_pb').Person
 var p = new Person()
 p.setName('John')
 p.setNickname('Johnny')
-p.setGender(1)
+p.setGender(Person.Gender.MALE)
 p.setFriendsList(['Maria', 'Joseph', "David"])
 
 var bytes = p.serializeBinary()

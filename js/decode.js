@@ -16,10 +16,10 @@ readStream.on('data', function (chunk) {
     let nickname = p.getNickname()
     let gender
     switch (p.getGender()) {
-        case 0:
+        case Person.Gender.FEMALE:
             gender = 'girl'
             break
-        case 1:
+        case Person.Gender.MALE:
             gender = 'boy'
             break
         default:
