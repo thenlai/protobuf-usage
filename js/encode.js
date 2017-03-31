@@ -10,7 +10,7 @@ p.setGender(Person.Gender.MALE)
 p.setFriendsList(['Maria', 'Joseph', "David"])
 
 var bytes = p.serializeBinary()
-var wstream = fs.createWriteStream('person.bin')
+var wstream = fs.createWriteStream('person.pb')
 wstream.write(new Buffer(bytes))
 wstream.end()
 

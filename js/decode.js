@@ -3,7 +3,7 @@
 var fs = require('fs')
 var Person = require('./Person_pb').Person
 
-var readStream = fs.createReadStream('person.bin')
+var readStream = fs.createReadStream('person.pb')
 readStream.on('data', function (chunk) {
     // chunk: type is `Buffer`
     var bytes = new Uint8Array(
